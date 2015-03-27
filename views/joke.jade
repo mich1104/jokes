@@ -1,0 +1,13 @@
+//
+   Created by Michael on 25/03/15.
+
+extends layout
+block content
+    h1= title
+    p Welcome to #{title}
+    p #{joke}
+    a(href="joke") New Joke
+    p
+    a(href="../api/addjoke") Add your own joke
+    p
+    a(href="../") Back to index

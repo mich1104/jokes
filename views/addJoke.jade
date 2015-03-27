@@ -1,0 +1,13 @@
+//
+   Created by Michael on 27/03/15.
+
+extends layout
+block content
+    h1= 'Add your joke'
+    form(method="post" action="/api/storejoke")
+        input(name="joke" placeholder="enter your joke here")
+        input(type="submit")
+    p
+    a(href="../") Back to index
+    p
+    a(href="../joke") Back to jokes

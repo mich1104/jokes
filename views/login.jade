@@ -1,0 +1,10 @@
+//
+   Created by Michael on 25/03/15.
+
+extends layout
+block content
+    h1= 'Login'
+    form(method="post" action="/")
+        input(name="userName" placeholder="Enter username here")
+        input(name="password" placeholder="Password goes here" input type="password")
+        input(type="submit")
